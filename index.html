@@ -5,6 +5,18 @@
             <title>Alex McCrobie</title>
                 <h1>Initial Push:</h1>
                 <p>Hello World</p>
+                <script>
+                function changeImage(){
+                    var image = document.getElementById('droid');
+                    if (image.src.match("confusedgif.gif"))
+                        image.src = "May2019.jpeg";
+                    else
+                        image.src = "confusedgif.gif";
+                }
+                </script>
+
+                <img src="Me.JPG"  id="droid"
+    	 	         onclick="changeImage()" width="600ps">
 
         </body>
     </html>
